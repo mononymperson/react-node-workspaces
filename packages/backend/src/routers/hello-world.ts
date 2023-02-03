@@ -2,7 +2,7 @@ import { Request, Router } from 'express'
 
 import { JSONResponse } from '../interfaces'
 
-export const SongRouter = (router: Router) => {
+export const HelloWorld = (router: Router) => {
   router.get('/', (req: Request, res: JSONResponse<string>) => {
     try {
       return res.json({
